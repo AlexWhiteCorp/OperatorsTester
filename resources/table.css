@@ -1,0 +1,22 @@
+body{
+    background: grey;
+
+    color: #0e181f;
+    font-weight: bold;
+}
+
+table{
+    background: #0e181f;
+    margin: 50px 0px 0px 20%;
+
+}
+
+tr{
+    background: darkgrey;
+}
+
+td{
+    background: darkgrey;
+
+    padding: 3px 5px 3px 5px;
+}
