@@ -46,7 +46,7 @@ void Tester::testTypeOper(char oper){
     switch(oper){
         case '+':{
             int i;
-            T a = 0, b, c, d = 1;
+            T a = 4, b = 5, c = 3, d = 2;
             timerStart = chrono::system_clock::now();
             for (i = 0; i < ITERS; i++){
                 a = b + d;
@@ -60,7 +60,7 @@ void Tester::testTypeOper(char oper){
         }
         case '-':{
             int i;
-            T a = 0, b, c, d = 1;
+            T a = 4, b = 5, c = 3, d = 2;
             timerStart = chrono::system_clock::now();
             for (i = 0; i < ITERS; i++){
                 a = b - d;
@@ -74,7 +74,7 @@ void Tester::testTypeOper(char oper){
         }
         case '*':{
             int i;
-            T a = 0, b, c, d = 1;
+            T a = 4, b = 5, c = 3, d = 2;
             timerStart = chrono::system_clock::now();
             for (i = 0; i < ITERS; i++){
                 a = b * d;
@@ -88,7 +88,7 @@ void Tester::testTypeOper(char oper){
         }
         case '/':{
             int i;
-            T a = 0, b, c, d = 1;
+            T a = 4, b = 5, c = 3, d = 2;
             timerStart = chrono::system_clock::now();
             for (i = 0; i < ITERS; i++){
                 a = b / d;
